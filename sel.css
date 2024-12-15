@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.landing{
+    background: url(https://images.pexels.com/photos/169789/pexels-photo-169789.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+.landing h1{
+    color: whitesmoke;
+    font-size: 70px;
+    text-align: center;
+    padding-top :250px ;
+}
+.landing p{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 35px;
+    padding-top :20px ;
+}
+button{
+    padding: 10px 50px;
+    background-color:wheat;
+    color: black;
+    border:2px solid blueviolet;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left:44%;
+
+}
