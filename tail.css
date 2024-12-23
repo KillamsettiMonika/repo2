@@ -1,0 +1,101 @@
+/* Global Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #0f172a; /* Dark background */
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    padding: 1rem 2rem;
+    background: transparent;
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #38bdf8; /* Tailwind blue */
+}
+
+.navbar nav a {
+    margin: 0 1rem;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.navbar nav a:hover {
+    color: #38bdf8; /* Hover effect */
+}
+
+.icons {
+    display: flex;
+    gap: 1rem;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 5rem 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.hero p {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    color: #cbd5e1; /* Lighter gray text */
+}
+
+.hero .highlight {
+    color: #38bdf8; /* Tailwind blue */
+    font-family: monospace;
+}
+
+.buttons {
+    margin-top: 2rem;
+}
+
+.buttons .btn {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    transition: background 0.3s ease;
+}
+
+.buttons .primary {
+    background: #38bdf8;
+    color: black;
+}
+
+.buttons .primary:hover {
+    background: #0284c7;
+}
+
+.buttons .secondary {
+    background: #1e293b;
+    color: white;
+    border: 1px solid #38bdf8;
+}
+
+.buttons .secondary:hover {
+    background: #334155;
+}

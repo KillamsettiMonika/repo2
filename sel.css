@@ -24,9 +24,9 @@
 }
 button{
     padding: 10px 50px;
-    background-color:wheat;
-    color: black;
-    border:2px solid black;
+    background-color:transparent;
+    color: white;
+    border:2px solid white;
     cursor: pointer;
     margin-top: 20px;
     font-size: 20px;
@@ -35,8 +35,8 @@ button{
     border-radius: 20px;
 }
 button:hover{
-    background-color: #f0e68c;
-    color: #333;
+    
+    color: white;
     padding: 15px 60px;
     border-radius: 10;
     transition: 0.8s ease-in-out;
@@ -78,26 +78,52 @@ button:hover{
     background-color: #494242;
     height: 70vh;
     width: 50vh;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px #6a5f5f;
 }
 .y{
     background-color: #494242;
     height: 70vh;
     width: 50vh;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px #6a5f5f;
 }
 .x{
     background-color: #494242;
     height: 70vh;
     width: 50vh;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px #6a5f5f;
 }
 .w{
     background-color: #494242;
     height: 70vh;
     width: 50vh;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px #6a5f5f;
+}
+
+.z:hover{
+    height: 72vh;
+    width:52vh;
+}
+.y:hover{
+    height: 72vh;
+    width:52vh;
+}
+.x:hover{
+    height: 72vh;
+    width:52vh;
+}
+.w:hover{
+    height: 72vh;
+    width:52vh;
 }
 .mountains img{
     height: 40vh;
     width:45vh;  
    margin: 17px;
+   border-radius: 10px;
 }
 .mountains p{
     text-align: center;
@@ -143,4 +169,104 @@ button:hover{
     background-color: #333;
     color: #ddd;
     padding: 10px;
+}
+.h:hover{
+    cursor: pointer;
+}
+.test{
+    display:flex;
+    height: 80vh;
+    width: 100%;
+    padding: auto;
+    background-color: #333;
+}
+#aab{
+    flex-direction: row;
+    justify-content: space-around;
+}
+.test img{
+    height: 40vh;
+    width:45vh;  
+   margin: 17px;
+   border-radius: 10px;
+}
+.aa1{
+    background-color: #494242;
+    height: 70vh;
+    width: 50vh;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px #6a5f5f;
+}
+.aa2{
+    background-color: #494242;
+    height: 70vh;
+    width: 50vh;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px #6a5f5f;
+}
+.aa3{
+    background-color: #494242;
+    height: 70vh;
+    width: 50vh;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px #6a5f5f;
+}
+.aa4{
+    background-color: #494242;
+    height: 70vh;
+    width: 50vh;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px #6a5f5f;
+}
+.aa1:hover{
+    height: 72vh;
+    width:52vh;
+}
+.aa2:hover{
+    height: 72vh;
+    width:52vh;
+}
+.aa3:hover{
+    height: 72vh;
+    width:52vh;
+}
+.aa4:hover{
+    height: 72vh;
+    width:52vh;
+}
+.hh{
+    background-color: #333;
+    color: #ddd;
+    padding: 10px;
+    text-align: center;
+    font-size: 30PX;
+    font-style: italic;
+}
+.hh:hover{
+    cursor: pointer;
+}
+.test p{
+    text-align: center;
+    font-size: 20px;
+    color: #ddd;
+}
+.test button{
+    text-align: center;
+    margin-left: 15px;
+    margin-bottom: 0;
+    width: 45vh;
+
+}
+.foot{
+    background-color: #333;
+}
+.foot h4{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+.foot p{
+    text-align: center;
+    font-size: 20px;
+    color: #ddd;
 }
