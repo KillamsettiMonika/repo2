@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card Layout</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #f0f0f0;
+      }
+
+      .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        padding: 20px;
+      }
+
+      .card {
+        width: 250px;
+        height: 400px;
+        background-color: white;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        padding: 15px;
+        text-align: center;
+      }
+
+      .card img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+      }
+
+      .card h3 {
+        margin-top: 10px;
+        font-size: 18px;
+      }
+
+      .card p {
+        margin-top: 10px;
+        font-size: 14px;
+        color: #666;
+        text-align: left;
+      }
+
+      @media (max-width: 768px) {
+        .card-container {
+          justify-content: flex-start;
+        }
+        .card {
+          width: 45%;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .card {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card-container">
+      <div class="card">
+        <img src="https://images.pexels.com/photos/4051736/pexels-photo-4051736.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="Card 1" style="height: 200px;"/>
+        <h3>Cheese cake</h3>
+        <p>Cheesecake is a rich and creamy dessert loved worldwide for its velvety texture and luxurious flavor. It is typically made with a combination of cream cheese, sugar, and eggs, set atop a crust made from crushed graham crackers, cookies, or sponge cake.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.pexels.com/photos/11168982/pexels-photo-11168982.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="Card 2"style="height:200px" />
+        <h3>Macrons</h3>
+        <p>Macarons are a popular and elegant French confection known for their delicate texture and vibrant appearance. They are made with almond flour, egg whites, and sugar, resulting in a smooth, crisp shell that gives way to a soft and chewy interior.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.pexels.com/photos/15803800/pexels-photo-15803800/free-photo-of-cake-with-white-sprinkles.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="Card 3" style="height:200px" />
+        <h3>Stacked Brownies</h3>
+        <p>Stacked Brownies are a delightful dessert variation where layers of rich, fudgy brownies are stacked, often with additional ingredients or flavors between the layers to enhance the treat. They are both visually appealing and indulgently delicious.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.pexels.com/photos/10718224/pexels-photo-10718224.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Card 4" style="height:200px" />
+        <h3>Cupcakes</h3>
+        <p>Cupcakes are small, individual-sized cakes baked in a cup-shaped mold or liner, typically made of paper or foil. They are a popular dessert due to their convenient size, versatility, and the ability to customize flavors, toppings, and decorations.</p>
+      </div>
+    </div>
+  </body>
+</html>
